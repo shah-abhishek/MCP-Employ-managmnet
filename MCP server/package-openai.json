@@ -1,0 +1,22 @@
+{
+  "name": "openai-mcp-wrapper",
+  "version": "1.0.0",
+  "description": "OpenAI wrapper for MCP task management server",
+  "main": "openai-wrapper.js",
+  "type": "module",
+  "scripts": {
+    "start": "node openai-wrapper.js",
+    "dev": "node --watch openai-wrapper.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "mongodb": "^6.0.0"
+  },
+  "keywords": ["openai", "mcp", "mongodb", "task-management"],
+  "author": "Your Name",
+  "license": "MIT"
+}

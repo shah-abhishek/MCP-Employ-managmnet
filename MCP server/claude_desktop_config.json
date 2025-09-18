@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "task-management-db": {
+      "command": "node",
+      "args": ["/home/dev-desktop-1/Desktop/MCP task managment/MCP server/src/index.js"],
+      "env": {
+        "MONGODB_URL": "mongodb://localhost:27017",
+        "DATABASE_NAME": "task_management"
+      }
+    }
+  }
+}

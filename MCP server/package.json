@@ -1,0 +1,33 @@
+{
+  "name": "task-management-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for task management database queries",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests specified'"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.0.0",
+    "node-fetch": "^2.7.0",
+    "openai": "^5.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "mongodb",
+    "task-management",
+    "database"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
